@@ -1,0 +1,103 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+   
+   
+}
+body{
+    background-image: url(/wp3646520.jpg);
+}
+nav{
+    width: 100%;
+   background-color: rgb(52, 206, 240);
+   top: 0;
+  z-index: 99;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    
+}
+
+.logo{
+    width:7rem;
+    height: 7rem;
+    font-size: 3rem;
+    color:whitesmoke;
+    line-height: 7rem;
+    border-radius: 50%;
+    align-items: center;
+    text-decoration: none;
+    background-color: blueviolet;
+    justify-content: center;
+    margin-left: 30px;
+    padding-left: 4px;
+  
+}
+.logo:hover{
+    color:black;
+    background-color:green;
+}
+
+.nav-list{
+    display: flex;
+  
+    list-style-type: none;
+  
+    
+
+}
+.nav-list li:last-child {
+    padding-right: 0;
+}
+
+.nav-item {
+    padding: 0 2rem;
+}
+.nav-link {
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    color:whitesmoke;
+    font-weight: 700;
+    text-decoration:none;
+
+ 
+}
+.nav-link:hover{
+    color:black;
+   
+}
+
+.container-title{
+    width: 100%;
+    padding-top: 300px;
+  text-align: center;
+ 
+}
+
+.ana-baslık{
+    color:whitesmoke;
+    font-size: 6rem;
+    font-weight: 100px;
+    letter-spacing: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buton{
+    border: none;
+    color:white;
+    border-radius: 20px;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+ cursor: pointer;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.buton:hover{
+    background-color: transparent;
+}
